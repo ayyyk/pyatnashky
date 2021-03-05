@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.mainContainer{
+	background: #006400;
+	width: 510px;
+	margin:  100px auto 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.field{
+	border:5px solid #696969;
+	width: 400px;
+	height: 400px;
+	margin:  0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-around;
+}
+
+.elem{
+	background: #8B0000;
+	width: 92px;
+	height: 92px;
+	display: flex;
+	z-index: 10;
+	user-select:none;
+}
+
+.noElem{
+	background: #006400;
+	width: 92px;
+	height: 92px;
+	z-index: 5;
+}
+
+.orderText{
+	margin: auto;
+	font-size: 40px;
+}
+
+.counter{
+	display: flex;
+	width: 510px;
+	margin:  20px auto 0;
+	justify-content: space-around;
+}
